@@ -7,8 +7,8 @@
 
 body {
 	font-family: system-ui;
-	background: var(--couleurPrincipale);
-	color: color-mix(in srgb, var(--couleurPrincipale) 60%, white 40%);
+	/* background: var(--couleurPrincipale); */
+	/* color: color-mix(in srgb, var(--couleurPrincipale) 60%, white 40%); */
 }
 h1 {
 	font-size: 8vw;
