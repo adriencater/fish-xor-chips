@@ -1,8 +1,9 @@
 
 /* COULEUR ///////////////// */
 :root {
-	--couleurPrincipale: hsl(338, 87%, 58%);
-	--couleurSecondaire: orange;
+	--couleurPrincipale: #F1357A;
+	--couleurSecondaire: #357AF1;
+	--couleurMix: color-mix(in srgb, var(--couleurPrincipale), var(--couleurSecondaire));
 }
 
 body {
@@ -16,6 +17,6 @@ h1 {
 
 h2 { 
 	font-size: 4vw;
-	color: color-mix(in srgb, var(--couleurSecondaire) 50%, white 50%);
+	/* color: color-mix(in srgb, var(--couleurSecondaire) 50%, white 50%); */
 }
 
