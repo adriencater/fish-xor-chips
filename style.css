@@ -1,3 +1,8 @@
+* { box-sizing: border-box; }
+
+img { max-width: 100%; }
+
+
 
 /* COULEUR ///////////////// */
 :root {
@@ -20,3 +25,18 @@ h2 {
 	/* color: color-mix(in srgb, var(--couleurSecondaire) 50%, white 50%); */
 }
 
+
+
+/* Mise en page – Colonnes */
+.row {
+	display: flex;
+	gap: 1rem;
+}
+.row > * {
+	flex: 1;
+}
+@media(max-width: 800px){
+	.row{
+		flex-direction: column;
+	}
+}
