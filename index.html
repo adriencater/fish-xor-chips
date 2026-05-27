@@ -35,13 +35,46 @@
 
 		<article id="Logo">
 			<h2>Logo</h2>
-			<img src="logo.svg" alt="Logo Fish && Chips">
+			<img src="logo-vertical.png" alt="Logo Fish && Chips">
+
+			<h3>Logo horizontal</h3>
+			<img src="logo-horizontal.svg" alt="Logo Fish && Chips">
+
+			<h3>Logo complet</h3>
+			<img src="logo-complet.svg" alt="Logo Fish && Chips">
 		</article>
 
 		<article id="Application">
 			<h2>Application</h2>
 			<img src="truck.jpg" alt="Image du camion decoré">
 		</article>
+
+
+
+		<article id="Typography">
+			<h2>Font: Source Code Pro</h2>
+			
+			<style>
+				.waterfall{
+					overflow-y: scroll;
+				}
+				.waterfall p.line { text-wrap: nowrap; }
+				.waterfall * { margin: 1rem 0; border-top: 1px solid var(--couleurSecondaire);}
+			</style>
+			<div class="waterfall">
+				<p              style="font-size: var(--fontSize-XS    )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-XS     0.50rem / 8px     </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores assumenda quia veritatis repellendus sapiente incidunt ut aut corrupti nisi, quisquam unde distinctio? Ab facere tempora assumenda voluptate, obcaecati voluptas doloremque. </p> 
+				<p              style="font-size: var(--fontSize-S     )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-S      0.71rem / 11.32px </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consectetur ullam quibusdam reiciendis necessitatibus aperiam temporibus laborum! Debitis blanditiis saepe labore, quasi, corporis esse recusandae quis, placeat corrupti praesentium cupiditate. </p>
+				<p              style="font-size: var(--fontSize-M     )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-M      1.00rem / 16px    </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum inventore amet, alias reprehenderit illum odio fugiat obcaecati, repudiandae facilis, voluptatem accusantium omnis laborum excepturi! Soluta, eos! Voluptates eius laboriosam inventore! </p>
+				<p class="line" style="font-size: var(--fontSize-L     )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-L      1.41rem / 22.62px </span>The quick brown fox jumps over the lazy dog. </p>
+				<p class="line" style="font-size: var(--fontSize-XL    )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-XL     2.00rem / 32px    </span>The quick brown fox jumps over the lazy dog. </p>
+				<p class="line" style="font-size: var(--fontSize-XXL   )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-XXL    2.83rem / 45.23px </span>The quick brown fox jumps over the lazy dog. </p>
+				<p class="line" style="font-size: var(--fontSize-XXXL  )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-XXXL   4.00rem / 64px    </span>The quick brown fox jumps over the lazy dog. </p>
+				<p class="line" style="font-size: var(--fontSize-XXXXL )"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-XXXXL  5.65rem / 90.44px </span>The quick brown fox jumps over the lazy dog. </p>
+				<p class="line" style="font-size: var(--fontSize-XXXXXL)"> Fish && Chips <span style="color:var(--couleurAccent);">--fontSize-XXXXXL 8.00rem / 128px   </span>The quick brown fox jumps over the lazy dog. </p>
+			</div>
+		</article>
+
+
 
 		<article id="web">
 			<h2>Maquette de site web</h2>
@@ -87,6 +120,16 @@
 			<div class="color">
 				<h3>Couleur Secondaire: «Azur»</h3>
 				<div class="swatch" style="background: var(--couleurSecondaire);"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+				<p class="label" data-color-format="hsl"></p>
+				<p class="label" data-color-format="lab"></p>
+				<p class="label" data-color-format="cmyk"></p>
+			</div>
+			
+			<div class="color">
+				<h3>Couleur Accent: «Orange»</h3>
+				<div class="swatch" style="background: var(--couleurAccent);"></div>
 				<p class="label" data-color-format="hex"></p>
 				<p class="label" data-color-format="rgb"></p>
 				<p class="label" data-color-format="hsl"></p>
